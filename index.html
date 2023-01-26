@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Number Converter</h1>
+        </div>
+        <div class="numberSystem">
+            <div class="numberSystemInput">
+              <select id="numberSystemInputLeft">
+                <option value="binary">Binary</option>
+                <option value="decimal">Decimal</option>
+                <option value="octal">Octal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+              </select> 
+            </div>
+            <div class="numberSystemInput">
+                <select id="numberSystemInputRight">
+                    <option value="binary">Binary</option>
+                    <option value="decimal">Decimal</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                  </select>
+            </div>
+        </div>
+        <div class="numbers">
+            <div class="numberInput">
+                <div class="numberInput">
+                    <input type="text" alt="Decimal" id="numberInputLeft" placeholder="">
+                </div>
+                <div class="numberInput">
+                    <input type="text" alt="Binary" id="numberInputRight" placeholder=""> 
+                </div>
+            </div>
+        </div>
+        <div id="message">
+            <h5 id="errorMessage"></h5>
+        </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+
+</body>
+</html>
